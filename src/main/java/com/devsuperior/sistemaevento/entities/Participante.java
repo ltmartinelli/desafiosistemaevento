@@ -58,6 +58,10 @@ public class Participante {
         this.email = email;
     }
 
+    public Set<Atividade> getAtividades() {
+        return atividades;
+    }
+
     @Override
     public String toString() {
         return "Participante{" +
