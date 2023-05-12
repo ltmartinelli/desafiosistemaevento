@@ -82,4 +82,17 @@ public class Atividade {
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
+
+    @Override
+    public String toString() {
+        return "Atividade{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", preco=" + preco +
+                ", categoria=" + categoria +
+                ", participantes=" + participantes +
+                ", blocos=" + blocos +
+                '}';
+    }
 }

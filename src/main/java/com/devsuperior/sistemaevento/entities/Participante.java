@@ -58,5 +58,13 @@ public class Participante {
         this.email = email;
     }
 
-
+    @Override
+    public String toString() {
+        return "Participante{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", atividades=" + atividades +
+                '}';
+    }
 }

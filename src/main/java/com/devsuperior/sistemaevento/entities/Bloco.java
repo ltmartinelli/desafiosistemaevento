@@ -58,6 +58,14 @@ public class Bloco {
         this.fim = fim;
     }
 
+    public Atividade getAtividade() {
+        return atividade;
+    }
+
+    public void setAtividade(Atividade atividade) {
+        this.atividade = atividade;
+    }
+
     @Override
     public String toString() {
         return "Bloco{" + "id=" + id + ", inicio=" + inicio + ", fim=" + fim + '}';
