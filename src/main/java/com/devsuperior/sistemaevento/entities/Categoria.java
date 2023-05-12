@@ -27,6 +27,7 @@ public class Categoria {
         this.descricao = descricao;
     }
 
+
     public Integer getId() {
         return id;
     }

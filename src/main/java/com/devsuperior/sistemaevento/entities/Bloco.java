@@ -60,10 +60,6 @@ public class Bloco {
 
     @Override
     public String toString() {
-        return "Bloco{" +
-                "id=" + id +
-                ", inicio=" + inicio +
-                ", fim=" + fim +
-                '}';
+        return "Bloco{" + "id=" + id + ", inicio=" + inicio + ", fim=" + fim + '}';
     }
 }

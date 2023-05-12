@@ -33,8 +33,6 @@ public class Atividade {
     private List<Bloco> blocos = new ArrayList<>();
 
 
-
-
     public Atividade() {
     }
 
